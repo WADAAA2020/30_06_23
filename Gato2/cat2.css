@@ -1,0 +1,31 @@
+body {
+    background: url(./img/gatinho.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    text-align: end;
+    height: 60px;
+    margin-top: 0;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(191, 177, 204);
+    font-size: 30px;
+}
